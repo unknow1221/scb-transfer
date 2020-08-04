@@ -23,7 +23,7 @@ $eligi = $bank->getEligiblebanks();
                         <h5 class="card-title">จาก</h5>
                         <div class="card cx-card text-left p-3">
                             <h5 class="card-title cx-t-1"><?php echo $bank->accdisp ?></h5>
-                            <p class="cx-w pt-0"><?php echo $summary->totalAvailableBalance ?> บาท</p>
+                            <p class="cx-w pt-0"><?php echo $summary->totalAvailableBalance?> บาท</p>
                         </div>
                     </div>
                 </div>
@@ -56,15 +56,7 @@ $eligi = $bank->getEligiblebanks();
                     </div>
                 </div>
             </div>
-            <div class="pb-3">
-                <div class="card backdrop">
-                    <div class="card-body">
-                        <h5 class="card-title">ฟังก์ชั่น</h5>
-                 
 
-                    </div>
-                </div>
-            </div>
         </div>
 
         <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 pb-3">
